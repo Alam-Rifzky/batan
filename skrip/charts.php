@@ -182,6 +182,7 @@ if(!empty($_SESSION['email'])){
 
  
 //{tanggal: '08/06/2016',minimal:0, maximal:0,barang:'komponen 1'}
+//kalo mau tambahin data teras baru tinggal tambahin b: [value] setelah a: 24 dst
 ];
 Morris.Line({
   element: 'graph',
