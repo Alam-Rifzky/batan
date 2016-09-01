@@ -186,17 +186,12 @@ if(!empty($_SESSION['email'])){
 Morris.Line({
   element: 'graph',
   data: [
-    { y: '2006', a: 100, b: 90 },
-    { y: '2007', a: 75,  b: 65 },
-    { y: '2008', a: 50,  b: 40 },
-    { y: '2009', a: 75,  b: 65 },
-    { y: '2010', a: 50,  b: 40 },
-    { y: '2011', a: 75,  b: 65 },
-    { y: '2012', a: 100, b: 90 }
+    { y: '2016-07-02 14:00', a: 24 },
+    { y: '2016-07-03 00:00', a: 41}
   ],
   xkey: 'y',
-  ykeys: ['a', 'b'],
-  labels: ['Series A', 'Series B']
+  ykeys: ['a'],
+  labels: ['Tekanan Hasil']
 });
 </script>   
 </div>
